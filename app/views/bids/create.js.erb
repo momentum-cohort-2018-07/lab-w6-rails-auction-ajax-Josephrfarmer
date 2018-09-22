@@ -1,0 +1,13 @@
+console.log('hello') 
+
+var high_bid = document.getElementById("highest_bid")
+var bid_a = document.getElementById("bid_amount")
+
+document.getElementById("sub_button").addEventListener('onclick',function ()
+    {
+      high_bid.value = bid_a.value
+      
+      bid_a.value = bid_a.value + 10
+    } 
+    
+); 
